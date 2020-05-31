@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-color: #E5E5E5;
+
+}
+
+/*************** CLASS ***************/
+
+.logo {
+    color: white;
+    font-size: 3rem;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.user {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+
+
+}
+
+.user2 {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-left: 150px;
+
+}
+
+.icone {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 103px;
+    margin-left: -35px;
+}
+
+.icone2 {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 115px;
+}
+
+.btn {
+    background: #15d798;
+    border-radius: 5px;
+    padding: 7px 14px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 20px/1 "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 182px;
+    border: 0;
+}
+
+.btn:hover {
+    background: #095679;
+}
+
+.psw{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -109px;
+    text-decoration: none;
+    color: #1b262c;
+}
+/*************** ID's ***************/
+#header {
+
+    width: auto;
+    height: 100px;
+    background: rgb(0,1,36);
+    background: linear-gradient(315deg, rgba(0,1,36,1) 0%, rgba(9,86,121,1) 22%, rgba(34,138,104,1) 100%);
+    box-shadow: 1px 3px 5px grey;
+
+}
+
+#login {
+    margin-top: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #807e7e;
+}
+
+#user {
+    margin-left: 150px;
+    z-index: 1;
+}

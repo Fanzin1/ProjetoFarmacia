@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/*************** CLASS ***************/
+
+.logo {
+    color: white;
+    font-size: 3rem;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.icone{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 30px;   
+}
+
+.icone{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;  
+    
+}
+
+/*************** ID's ***************/
+#inicio{
+    background-color: white;
+    height: 800px;
+    width: 1700px;
+    margin-left: 115px;
+    margin-top: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#header {
+
+    width: auto;
+    height: 100px;
+    background: rgb(0, 1, 36);
+    background: linear-gradient(315deg, rgba(0, 1, 36, 1) 0%, rgba(9, 86, 121, 1) 22%, #228a68 100%);
+    box-shadow: 1px 3px 5px grey;
+
+}
+
+#menu{
+    background-color: #c7c7c7;
+    box-shadow: 2px 5px 5px gray; 
+    z-index: -1;
+}
+
+/*************** MOBILE ***************/
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*************** NavBar ***************/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #228a68;
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 30px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidenav a:hover {
+    color: grey;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+/*************** Top Nav ***************/
+
+.btp{
+    float: right;
+    padding: 6px 10px;
+    margin-top: -40px;
+    margin-right: 43px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.search {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -40px;
+    margin-right: 80px;
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .search{
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .btp{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .search{
+      border: 1px solid #ccc;
+    }
+  }
