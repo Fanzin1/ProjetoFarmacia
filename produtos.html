@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque Farmácia</title>
+    <link rel="stylesheet" href="css/stylesprodutos.css">
+    <link rel="stylesheet" href="public/css/stylesprodutos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Muli&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5dda139b8d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sideNavBar" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">ínicio</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="registrar.html">Registrar</a>
+        <a href="index.html">Sair</a>
+    </div>
+    <div id="main">
+        <div id="header">
+            <H1 class="logo">FARMAX</H1>
+        </div>
+        <div id="menu">
+            <span onclick="openNav()"><i id="icone" class="icone fas fa-bars"></i></span>
+            <form action="">
+                <input class="search" type="text" placeholder="Procurar..." id="">
+                <button type="submit" class="btp"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div id="produtos">
+            <table >
+                <tr>
+                    <th><a href="">Codigo</a></th>
+                    <th><a href="">Produto</a> </th>
+                    <th><a href="">Quantidade em estoque</a> </th>
+                    <th><a href="">Preço compra</a> </th>
+                    <th><a href="">Preço venda</a> </th>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("sideNavBar").style.width = "200px";
+            document.getElementById("main").style.marginLeft = "200px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            document.getElementById("inicio").style.backgroundColor = "rgba(0,0,0,0.1)";
+            document.getElementById("icone").style.opacity = "0";
+            document.getElementById("produtos").style.backgroundColor = "rgba(0,0,0,0.1)";
+        }
+
+        function closeNav() {
+            document.getElementById("sideNavBar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "#E5E5E5";
+            document.getElementById("inicio").style.backgroundColor = "white";
+            document.getElementById("produtos").style.backgroundColor = "white";
+            document.getElementById("icone").style.opacity = "1";
+        }
+    </script>
+
+</body>
+
+</html>

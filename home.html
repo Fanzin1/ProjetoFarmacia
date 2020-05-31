@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <title>FARMAX</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Muli&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styleshome.css">
+    <link rel="stylesheet" href="css/styleshome.css">
+    <script src="https://kit.fontawesome.com/5dda139b8d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sideNavBar" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">ínicio</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="registrar.html">Registrar</a>
+        <a href="index.html">Sair</a>
+    </div>
+    <div id="main">
+        <div id="header">
+            <H1 class="logo">FARMAX</H1>
+        </div>
+
+        <div id="menu">
+            <span onclick="openNav()"><i id="icone" class="icone fas fa-bars"></i></span>
+
+            <form action="">
+                <input class="search" type="text" placeholder="Procurar..." id="">
+                <button type="submit" class="btp"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <div id="inicio">
+            <div>
+                <h3 class="mv">MAIS VENDIDOS</h3>
+                <div id="vendidos">
+                    <div class="slides1 fade">
+                        <img src="images/remedio2.jpg" class="re1" alt="">
+                        <div class="nomeRemedio remedioTXT">Remedio 1</div>
+                        <div class="preco remedioTXT">R$ 25,99</div>
+
+                        <img src="images/remedio3.jpg" class="re2" alt="">
+                        <div class="nomeRemedio remedioTXT2 marg">Remedio 2</div>
+                        <div class="preco remedioTXT2">R$ 37,99</div>
+
+                        <img src="images/remedio4.jpg" class="re3" alt="">
+                        <div class="nomeRemedio remedioTXT3 marg2">Remedio 3</div>
+                        <div class="preco remedioTXT3">R$ 15,00</div>
+                    </div>
+                    <div class="slides1 fade">
+                        <img src="images/remedio5.jpg" class="re4" alt="">
+                        <div class="nomeRemedio remedioTXT4 marg3">Remedio 4</div>
+                        <div class="preco remedioTXT4">R$ 23,99</div>
+
+                        <img src="images/remedio6.jpg" class="re5" alt="">
+                        <div class="nomeRemedio remedioTXT5 marg4">Remedio 5</div>
+                        <div class="preco remedioTXT5">R$ 99,99</div>
+
+                        <img src="images/remedio2.jpg" class="re6" alt="">
+                        <div class="nomeRemedio remedioTXT6 marg5">Remedio 6</div>
+                        <div class="preco remedioTXT6">R$ 25,00</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+            </div>
+            <h3 class="pu">POUCAS UNIDADES</h3>
+            <div id="estoque">
+                <div class="slides2 fade">
+                    <img src="images/remedio2.jpg" class="re1" alt="">
+                    <div class="nomeRemedio remedioTXT">Remedio 1</div>
+                    <div class="preco remedioTXT">0 Unidades</div>
+
+                    <img src="images/remedio3.jpg" class="re2" alt="">
+                    <div class="nomeRemedio remedioTXT2 marg">Remedio 2</div>
+                    <div class="preco remedioTXT2">0 Unidades</div>
+
+                    <img src="images/remedio4.jpg" class="re3" alt="">
+                    <div class="nomeRemedio remedioTXT3 marg2">Remedio 3</div>
+                    <div class="preco remedioTXT3">3 Unidades</div>
+                </div>
+                <div class="slides2 fade">
+                    <img src="images/remedio5.jpg" class="re4" alt="">
+                    <div class="nomeRemedio remedioTXT4 marg3">Remedio 4</div>
+                    <div class="preco remedioTXT4">5 Unidades</div>
+
+                    <img src="images/remedio6.jpg" class="re5" alt="">
+                    <div class="nomeRemedio remedioTXT5 marg4">Remedio 5</div>
+                    <div class="preco remedioTXT5">7 Unidades</div>
+
+                    <img src="images/remedio2.jpg" class="re6" alt="">
+                    <div class="nomeRemedio remedioTXT6 marg5">Remedio 6</div>
+                    <div class="preco remedioTXT6">13 Unidades</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+            <h3 class="uv">ÚLTIMAS VENDAS</h3>
+            <div id="vendas">
+                <table>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Total</th>
+                        <th>Horario</th>
+                        <th>Data</th>
+                    </tr>
+                    <tr>
+                        <td>Paracetamol</td>
+                        <td>2</td>
+                        <td>R$ 3,50</td>
+                        <td>R$ 7,00</td>
+                        <td>13:53</td>
+                        <td>12/05</td>
+                    </tr>
+                    <tr>
+                        <td>Dorflex</td>
+                        <td>1</td>
+                        <td>R$ 5,00</td>
+                        <td>R$ 10,00</td>
+                        <td>13:49</td>
+                        <td>12/05</td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("sideNavBar").style.width = "200px";
+            document.getElementById("main").style.marginLeft = "200px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            document.getElementById("inicio").style.backgroundColor = "rgba(0,0,0,0.1)";
+            document.getElementById("vendidos").style.backgroundColor = "rgba(0,0,0,0.1)";
+            document.getElementById("estoque").style.backgroundColor = "rgba(0,0,0,0.1)";
+            document.getElementById("vendas").style.backgroundColor = "rgba(0,0,0,0.1)";
+            document.getElementById("icone").style.opacity = "0";
+        }
+
+        function closeNav() {
+            document.getElementById("sideNavBar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "#E5E5E5";
+            document.getElementById("inicio").style.backgroundColor = "white";
+            document.getElementById("vendidos").style.backgroundColor = "white";
+            document.getElementById("estoque").style.backgroundColor = "white";
+            document.getElementById("vendas").style.backgroundColor = "white";
+            document.getElementById("icone").style.opacity = "1";
+        }
+
+        var slideIndex = [1, 1];
+        var slideId = ["slides1", "slides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {
+                slideIndex[no] = 1
+            }
+            if (n < 1) {
+                slideIndex[no] = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[no] - 1].style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
