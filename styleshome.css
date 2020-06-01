@@ -476,7 +476,7 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 640px) {
     #inicio {
-        width: 450px;
+        width: 750px;
         margin-left: 20px;
     }
 
