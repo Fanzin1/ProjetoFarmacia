@@ -380,7 +380,7 @@ tr:nth-child(even) {
 
   /*********** MOBILE **********/
 
-  @media screen and (max-height: 1366px) {
+  @media screen and (max-width: 1366px) {
       #inicio{
           width: 1220px;
           margin-left: 75px;
