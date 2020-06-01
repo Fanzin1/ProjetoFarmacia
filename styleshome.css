@@ -601,4 +601,132 @@ tr:nth-child(even) {
         margin-bottom: 50px;
 
     }
+    @media screen and (max-height: 800px) {
+        #inicio {
+            width: 450px;
+            margin-left: 20px;
+        }
+    
+        #vendidos {
+            margin-left: 0;
+            width: 450px;
+        }
+    
+        .mv {
+            margin-top: 100px;
+            margin-left: 162px;
+        }
+    
+        #estoque {
+            width: 450px;
+            margin-top: 400px;
+            margin-left: 0;
+        }
+    
+        .pu {
+            margin-left: 142px;
+            margin-top: 370px;
+        }
+    
+        #vendas {
+            margin-left: 0px;
+            margin-top: 680px;
+            height: 350px;
+            width: 450px;
+        }
+    
+        .uv {
+            margin-left: 150px;
+            margin-top: 650px;
+        }
+    
+        .remedioTXT {
+            margin-left: -285px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        .remedioTXT2 {
+            margin-left: -10px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        .remedioTXT3 {
+            margin-left: 240px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        .remedioTXT4 {
+            margin-left: -276px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        .remedioTXT5 {
+            margin-left: -7px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        .remedioTXT6 {
+            margin-left: 240px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        .re1 {
+            display: inline-block;
+            margin-top: 30px;
+            height: 120px;
+            margin-left: 20px;
+        }
+    
+        .re2 {
+            position: absolute;
+            display: inline-block;
+            margin-top: -170px;
+            height: 130px;
+            margin-left: 130px;
+            margin-bottom: 50px;
+    
+        }
+    
+        .re3 {
+            position: absolute;
+            display: inline-block;
+            margin-top: -170px;
+            height: 140px;
+            margin-left: 290px;
+            margin-bottom: 50px;
+        }
+    
+        .re4 {
+            display: inline-block;
+            margin-top: 30px;
+            height: 120px;
+            margin-left: 47px;
+        }
+    
+        .re5 {
+            position: absolute;
+            display: inline-block;
+            margin-top: -170px;
+            height: 130px;
+            margin-left: 170px;
+            margin-bottom: 50px;
+    
+        }
+    
+        .re6 {
+            position: absolute;
+            display: inline-block;
+            margin-top: -170px;
+            height: 120px;
+            margin-left: 280px;
+            margin-bottom: 50px;
+    
+        }
+    }
 }
