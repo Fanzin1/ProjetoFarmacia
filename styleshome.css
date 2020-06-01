@@ -441,6 +441,7 @@ tr:nth-child(even) {
     #inicio {
         width: 950px;
         margin-left: 20px;
+        height: 1100px;
     }
 
     #vendidos {
@@ -465,11 +466,11 @@ tr:nth-child(even) {
         margin-left: 0px;
         margin-top: 670px;
         height: 350px;
-        width: 750px;
+        width: 950px;
     }
 
     .uv {
-        margin-left: 330px;
+        margin-left: 350px;
         margin-top: 640px;
     }
 }
