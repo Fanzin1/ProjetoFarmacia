@@ -441,7 +441,7 @@ tr:nth-child(even) {
     #inicio {
         width: 950px;
         margin-left: 20px;
-        height: 1100px;
+        height: 1000px;
     }
 
     #vendidos {
@@ -449,7 +449,7 @@ tr:nth-child(even) {
     }
 
     .mv {
-        margin-left: 390px;
+        margin-left: 405px;
     }
 
     #estoque {
@@ -458,7 +458,7 @@ tr:nth-child(even) {
     }
 
     .pu {
-        margin-left: 470px;
+        margin-left: 455px;
         margin-top: 370px;
     }
 
@@ -470,7 +470,7 @@ tr:nth-child(even) {
     }
 
     .uv {
-        margin-left: 350px;
+        margin-left: 367px;
         margin-top: 640px;
     }
 }
