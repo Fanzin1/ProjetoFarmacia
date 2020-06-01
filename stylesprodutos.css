@@ -187,9 +187,27 @@ a{
     color: #1b262c;
 }
 
-@media screen and (max-height: 1366px) {
+@media screen and (max-width: 1366px) {
     #produtos{
         width: 1270px;
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    #produtos{
+        margin-left: 20px;
+        width: 750px;
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #produtos{
+        margin-left: 20px;
+        width: 450px;
         height: 700px;
     }
 
