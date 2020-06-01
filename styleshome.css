@@ -437,7 +437,7 @@ tr:nth-child(even) {
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
     #inicio {
         width: 750px;
         margin-left: 20px;
@@ -486,7 +486,7 @@ tr:nth-child(even) {
     }
 
     .mv {
-        margin-top: 90px;
+        margin-top: 100px;
         margin-left: 162px;
     }
 
@@ -503,14 +503,14 @@ tr:nth-child(even) {
 
     #vendas {
         margin-left: 0px;
-        margin-top: 660px;
+        margin-top: 680px;
         height: 350px;
         width: 450px;
     }
 
     .uv {
         margin-left: 150px;
-        margin-top: 630px;
+        margin-top: 650px;
     }
 
     .remedioTXT {
