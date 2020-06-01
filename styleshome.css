@@ -481,13 +481,13 @@ tr:nth-child(even) {
     }
 
     #vendidos {
-        margin-left: 0;
+        margin-left: 75;
         width: 450px;
     }
 
     .mv {
         margin-top: 100px;
-        margin-left: 162px;
+        margin-left: 280px;
     }
 
     #estoque {
