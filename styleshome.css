@@ -377,3 +377,41 @@ tr:nth-child(even) {
       border: 1px solid #ccc;
     }
   }
+
+  /*********** MOBILE **********/
+
+  @media screen and (max-height: 1366px) {
+      #inicio{
+          width: 1220px;
+          margin-left: 75px;
+      }
+
+      #vendidos{
+          margin-left: 70px;
+      }
+
+      .mv{
+          margin-left: 250px;
+      }
+      
+      #estoque{
+          margin-top: 130px;
+          margin-left: 640px;
+      }
+
+      .pu{
+          margin-left: 820px;
+          margin-top: 100px;
+      }
+
+      #vendas{
+          margin-left: 0px;
+          margin-top: 400px;
+          height: 350px;
+          width: 1220px;
+      }
+    .uv{
+        margin-left: 530px;
+        margin-top: 360px;
+    }
+}

@@ -186,3 +186,11 @@ tr:nth-child(even) {
 a{
     color: #1b262c;
 }
+
+@media screen and (max-height: 1366px) {
+    #produtos{
+        width: 1270px;
+        height: 700px;
+    }
+
+}
