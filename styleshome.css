@@ -601,7 +601,7 @@ tr:nth-child(even) {
         margin-bottom: 50px;
 
     }
-    @media screen and (max-height: 800px) {
+    @media screen and (max-height: 860px) {
         #inicio {
             width: 450px;
             margin-left: 20px;
