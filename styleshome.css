@@ -477,12 +477,12 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 640px) {
     #inicio {
-        width: 750px;
+        width: 450px;
         margin-left: 20px;
     }
 
     #vendidos {
-        margin-left: 25px;
+        margin-left: 0px;
         width: 450px;
     }
 
