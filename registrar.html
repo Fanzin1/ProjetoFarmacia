@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estoque Farmácia</title>
-    <link rel="stylesheet" href="stylesregistrar.css">
-    <link rel="stylesheet" href="public/css/stylesprodutos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesregistrar.css">
+    <link rel="stylesheet" href="public/css/stylesregistrar.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Muli&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/5dda139b8d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <div id="sideNavBar" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="home.html">ínicio</a>
-        <a href="produtos.html">Produtos</a>
+        <a href="produtos.jsp">Produtos</a>
         <a href="registrar.html">Registrar</a>
         <a href="index.html">Sair</a>
     </div>
-    <div class ="geral" id="main">
+    <div class="geral" id="main">
         <div id="header">
             <H1 class="logo">FARMAX</H1>
 
@@ -31,6 +34,28 @@
                 <input class="search" type="text" placeholder="Procurar..." id="">
                 <button type="submit" class="btp"><i class="fa fa-search"></i></button>
             </form>
+        </div>
+
+        <div id="mainReg">
+            <form name="cadEstoque" action="inserir.jsp" method="post">
+                <p class="nP">Nome do produto:</p>
+                <input type="text" name="nome" id="nome">
+
+                <p class="pC">Preço de compra:</p>
+                <input type="number" step="0.01" min="0" name="precoCompra" id="precoCompra">
+
+                <p class="pV">Preço de Venda:</p>
+                <input type="number" step="0.01" min="0" name="precoVenda" id="precoVenda">
+
+                <p class="eQ">Quantidade em estoque: </p>
+                <input type="number" min="0" name="quantidade" id="quantidade">
+
+                <p class="dC">Descrição do produto:</p>
+                <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="btn" value="CADASTRAR">
+            </form>
+
         </div>
 
     </div>
